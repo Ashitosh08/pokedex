@@ -67,6 +67,7 @@ h6 {
   font-family: var(--slantedFont);
   margin-bottom: 1.25rem;
   letter-spacing: var(--mainSpacing);
+  font-weight: 800;
 }
 p {
   margin-bottom: 1.25rem;
@@ -194,6 +195,7 @@ Navbar
 Error
 ======
 */
+
 .error-page {
   display: flex;
   justify-content: center;
@@ -218,15 +220,6 @@ animes List
   text-align: center;
   margin-bottom: 3rem;
   margin-top: 1rem;
-}
-.animes-center {
-  width: var(--smallWidth);
-  margin: 0 auto;
-  max-width: var(--fullWidth);
-  display: grid;
-  row-gap: 2rem;
-  column-gap: 2rem;
-  /* align-items: start; */
 }
 
 /* 
@@ -365,11 +358,11 @@ Form
 }
 
 .user {
-  color: orangered;
+  color: rgb(220, 215, 212);
   font-size: 10px;
   margin-right: 10px;
 }
-
+/* user */
 .logOut-btn {
   margin-top: 0;
   color: white;
@@ -462,7 +455,7 @@ img {
 .app-body {
   margin-top: 4rem;
   height: 600px;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   border-radius: 2%;
   /* background-color: var(--red-color); */
   background-image: url(./images/pokemon1.jpg);
@@ -579,7 +572,7 @@ img {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  font-size: 20px;
+  font-size: 18px;
   text-transform: capitalize;
 }
 strong {
@@ -587,7 +580,7 @@ strong {
 }
 .progress-bar {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   color: var(--yellow-color);
 }
 .powerstats li div span {
@@ -602,26 +595,6 @@ strong {
 .powerstats li > span {
   color: var(--yellow-color);
   font-weight: 700;
-}
-/* biography */
-.biography {
-  display: none;
-}
-.biography li {
-  margin: 3.4rem 0;
-}
-.biography li span {
-  text-transform: capitalize;
-  font-weight: 600;
-  font-size: 1.9rem;
-}
-.biography li span:first-child {
-  font-weight: 600;
-  color: var(--grey-color);
-  margin-right: 1rem;
-}
-.biography li span:last-child {
-  font-weight: 300;
 }
 
 /* appearance */
@@ -696,7 +669,7 @@ strong {
 .connections li span:last-child {
   letter-spacing: 3px;
   line-height: 1.9;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 500;
 }
 .move {

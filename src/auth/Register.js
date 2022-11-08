@@ -178,7 +178,7 @@ function Register() {
             .
           </p>
           <p>
-            <button id='sub_btn' type='submit' onClick={signUp}>
+            <button className='sub_btn' type='submit' onClick={signUp}>
               Register
             </button>
           </p>
@@ -192,7 +192,6 @@ function Register() {
           </p>
         </footer>
       </div>
-      <h1 className=''>hello world</h1>
     </div>
   )
 }

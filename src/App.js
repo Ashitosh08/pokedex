@@ -6,6 +6,7 @@ import Error from './pages/Error'
 import LoginReg from './auth/LoginReg'
 // import components
 import Navbar from './components/Navbar'
+import ForgetPassword from './auth/ForgetPassword'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='LoginReg' element={<LoginReg />} />
         <Route path='*' element={<Error />} />
+        <Route path='ForgetPassword' element={<ForgetPassword />} />
       </Routes>
     </BrowserRouter>
   )

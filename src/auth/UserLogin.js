@@ -111,7 +111,7 @@ function UserLogin() {
             <label className='right-label'>Forget password?</label>
           </Link>
           <p>
-            <button id='sub_btn' type='submit' onClick={signIn}>
+            <button className='sub_btn' type='submit' onClick={signIn}>
               Login
             </button>
           </p>

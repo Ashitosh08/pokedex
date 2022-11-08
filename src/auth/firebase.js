@@ -1,19 +1,18 @@
-// import { initializeApp } from 'firebase/app'
-// import { getAuth } from 'firebase/auth'
-// import { getFirestore } from 'firebase/firestore'
-// const firebaseConfig = {
-//   apiKey: 'AIzaSyBolWil2IzhLC_c8iLGEs_HJb7BWfO4rwQ',
-//   authDomain: 'react-auth-4d1b7.firebaseapp.com',
-//   projectId: 'react-auth-4d1b7',
-//   storageBucket: 'react-auth-4d1b7.appspot.com',
-//   messagingSenderId: '511376364254',
-//   appId: '1:511376364254:web:fe20eb64524a10c3b4284f',
-//   measurementId: 'G-7W94B0X8M5',
-// }
+import { initializeApp } from 'firebase/app'
+import { getAuth } from 'firebase/auth'
+import { getFirestore } from 'firebase/firestore'
+const firebaseConfig = {
+  apiKey: 'AIzaSyDBB6LeVSIjy2Nz8yb8GzJ7PlWqWQbfSL8',
+  authDomain: 'react-pokedex-ade70.firebaseapp.com',
+  projectId: 'react-pokedex-ade70',
+  storageBucket: 'react-pokedex-ade70.appspot.com',
+  messagingSenderId: '19916156411',
+  appId: '1:19916156411:web:894dc2d1536b2f4329af5e',
+}
 
-// // Initialize Firebase
+// Initialize Firebase
 
-// const app = initializeApp(firebaseConfig)
-// const auth = getAuth(app)
-// const db = getFirestore(app)
-// export { auth, db }
+const app = initializeApp(firebaseConfig)
+const auth = getAuth(app)
+const db = getFirestore(app)
+export { auth, db }

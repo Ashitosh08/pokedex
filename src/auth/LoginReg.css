@@ -180,6 +180,7 @@ form label {
   font-size: 0.9rem;
   margin: 0;
   padding: 0;
+  font-weight: 600;
 }
 
 .right-label {
@@ -190,14 +191,14 @@ form label {
 }
 
 input {
-  width: 15rem;
+  width: 24rem;
   padding: 0.3rem;
   border-radius: 5px;
   /* outline: none; */
-  border: none;
+  border: 2px solid black;
 }
 
-#sub_btn {
+.sub_btn {
   display: block;
   width: 100%;
   padding: 0.3rem;
@@ -242,7 +243,7 @@ form span {
 }
 
 .label {
-  margin-bottom: 10px;
+  margin-bottom: -2px;
   font-weight: 600;
 }
 
