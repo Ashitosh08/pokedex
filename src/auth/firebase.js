@@ -1,13 +1,15 @@
 import { initializeApp } from 'firebase/app'
 import { getAuth } from 'firebase/auth'
 import { getFirestore } from 'firebase/firestore'
+
 const firebaseConfig = {
-  apiKey: 'AIzaSyDBB6LeVSIjy2Nz8yb8GzJ7PlWqWQbfSL8',
-  authDomain: 'react-pokedex-ade70.firebaseapp.com',
-  projectId: 'react-pokedex-ade70',
-  storageBucket: 'react-pokedex-ade70.appspot.com',
-  messagingSenderId: '19916156411',
-  appId: '1:19916156411:web:894dc2d1536b2f4329af5e',
+  apiKey: 'AIzaSyBWt-BcrRl9X3OzjXj2TgwsaYTLs3vXeKg',
+  authDomain: 'feisty-ward-315500.firebaseapp.com',
+  projectId: 'feisty-ward-315500',
+  storageBucket: 'feisty-ward-315500.appspot.com',
+  messagingSenderId: '449643920726',
+  appId: '1:449643920726:web:183e1b5178a0baf2f16af7',
+  measurementId: 'G-2Y7RQWW4T8',
 }
 
 // Initialize Firebase
